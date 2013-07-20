@@ -379,7 +379,7 @@ $(function()
 			}
 		   else
 			{
-			   var tmpTone = "http://bruceburge.com/utilities/alarm/mp3/"+$("#mp3File option:selected").val();
+			   var tmpTone = "mp3/"+$("#mp3File option:selected").val();
 			   $("#jquery_jplayer").setFile(tmpTone).play();
 			}
 		   $(this).val("Stop Preview");
@@ -435,7 +435,7 @@ $(function()
 		}
 	   else
 		{
-		   alarmTone[alarmCounter] = "http://bruceburge.com/utilities/alarm/mp3/"+$("#mp3File option:selected").val();
+		   alarmTone[alarmCounter] = "mp3/"+$("#mp3File option:selected").val();
 		}
 
 		
